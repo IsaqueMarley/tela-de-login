@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-flow: row nowrap;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 26%, rgba(110,110,237,1) 73%);
+   align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 350px;
+    height: 450px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0,.5);
+}
+
+
+.login-close{
+    font-size:22px;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.login-title{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: stretch;
+
+}
+
+form div label{
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+form div input{
+    padding :10px;
+    border: 1px solid lightgray;
+}
+
+.login-link-forgot-password{
+    text-decoration: none;
+    color: rgb(133,169,247);
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.login-button{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 26%, rgba(110,110,237,1) 73%);
+     border: none;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.login-button:hover{
+    box-shadow: 0 0 4px 0 black;
+    cursor: pointer;
+}
+.not-a-menber{
+    text-align: center;
+    margin-top:40px ;
+    color: gray;
+}
+
+.login-link-sigup-now{
+    text-decoration: none;
+    color: rgb(133,169,247);
+    font-size: 16px;
+    font-weight: bold;
+}
