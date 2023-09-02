@@ -6,8 +6,8 @@
 body{
     display: flex;
     flex-flow: row nowrap;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 26%, rgba(110,110,237,1) 73%);
+    background: rgb(21, 21, 24);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(95, 102, 104)  0%, rgb(95, 102, 104) 26%, rgb(95, 102, 104)  73%);
    align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +36,13 @@ form{
 .login-title{
     font-size: 25px;
     font-weight: bolder;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}.login-title-small{
+    font-size: 20px;
+    padding-bottom: 30px ;
+    font-weight: bolder;
+
     text-align: center;
 }
 
@@ -65,7 +71,7 @@ form div input{
     margin-top: 5px;
 }
 .login-button{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(0,212,255,1) 26%, rgba(110,110,237,1) 73%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(50, 54, 54) 0%);
      border: none;
     padding: 15px;
     font-size: 16px;
